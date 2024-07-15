@@ -1,0 +1,1 @@
+# StringProperties_JS
