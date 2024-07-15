@@ -13,12 +13,22 @@
 
 //ADD NUMBERS
 
-function addNumbers(...numbers) {
-  let total = 0;
-  for (let n of numbers) {
-    total += n;
+// function addNumbers(...numbers) {
+//   let total = 0;
+//   for (let n of numbers) {
+//     total += n;
+//   }
+//   console.log(total);
+// }
+
+// addNumbers(10, 30, 70);
+
+function details(name, ...mobile) {
+  console.log(`Name: ${name}`);
+
+  for (let mob of mobile) {
+    console.log(`Mobile: ${mob}`);
   }
-  console.log(total);
 }
 
-addNumbers(10, 30, 70);
+details("A", 123, 456, 678);
